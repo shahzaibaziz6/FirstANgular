@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import {ServerComponent} from './server/server.component';
 import { HomeComponent } from './home/home.component';
+import { LoginInComponent } from './login-in/login-in.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
-    HomeComponent
+    HomeComponent,
+    LoginInComponent
   ],
   imports: [
     BrowserModule,
